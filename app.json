@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Healthy Smoothie Recipes",
+    "slug": "RecipeApp",
+    "version": "1.0.7",
+    "orientation": "portrait",
+    "icon": "./assets/smoothies-app-icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/smoothies-app-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#72a951"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.arne310nutrition.RecipeApp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/smoothies-app-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.arne310nutrition.RecipeApp",
+      "versionCode": 5
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a3d9361c-bb2a-4074-8daa-dc4a44386527"
+      }
+    }
+  }
+}
